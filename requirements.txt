@@ -1,0 +1,6 @@
+tensorflow==2.16.2
+tensorflow-metal==1.2.0
+numpy
+matplotlib
+scikit-learn
+scipy
