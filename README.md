@@ -11,7 +11,7 @@ This implementation focuses on the **PTT-PPG** dataset, which provides synchroni
 
 The core architectures include:
 
-1. **AttentiveConvRegNet** — CNN with Channel and Spatial Attention (CBAM)
+1. **AttentiveConvRegNet** — CNN with Channel and Spatial Attention 
 2. **ConvolutionalPoolingRegNet** — Standard CNN with pooling layers
 3. **NeuralRegressionNet** — Fully connected regression baseline
 
@@ -19,12 +19,25 @@ The core architectures include:
 
 ## Dataset
 
-The **PTT-PPG dataset** from PhysioNet was used for this implementation. It contains synchronized ECG and PPG recordings with corresponding BP measurements for multiple subjects.
+### 1. PTT-PPG Dataset
+The **PTT-PPG dataset** from [PhysioNet](https://www.physionet.org/content/pulse-transit-time-ppg/1.0.0/) was used for this implementation.  
+It contains synchronized **ECG** and **PPG** recordings with corresponding **blood pressure (BP)** measurements for multiple subjects.
 
-Dataset link:  
+**Dataset link:**  
 🔗 [https://www.physionet.org/content/pulse-transit-time-ppg/1.0.0/](https://www.physionet.org/content/pulse-transit-time-ppg/1.0.0/)
 
-Please ensure you comply with the PhysioNet Data Use Agreement before downloading.
+> Please ensure you comply with the PhysioNet Data Use Agreement before downloading.
+
+---
+
+### 2. MIMIC-II Cuff-less Blood Pressure Dataset
+The main goal of this dataset is to provide clean and valid signals for designing cuff-less blood pressure estimation algorithms and to validate on a bigger dataset.  
+The raw **ECG**, **PPG**, and **ABP** signals were originally collected from **PhysioNet**, and subsequently **preprocessed and validated** for research use.
+
+**Dataset link:**  
+🔗 [https://archive.ics.uci.edu/dataset/340/cuff+less+blood+pressure+estimation](https://archive.ics.uci.edu/dataset/340/cuff+less+blood+pressure+estimation)
+
+> The provided implementation framework can be directly applied to both PTT-PPG and MIMIC-II datasets for model development and performance benchmarking.
 
 ---
 
