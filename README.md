@@ -56,22 +56,7 @@ The raw **ECG**, **PPG**, and **ABP** signals were originally collected from **P
 
 ---
 
-## 📌 Citation
 
-If you use this repository, models, or any part of the proposed framework in your research, **please cite the following paper**:
-
-```bibtex
-@article{roha2026unraveling,
-  title={Unraveling blood pressure estimation with a deep learning approach using multiple embeddings},
-  author={Roha, Vishal Singh and Yuce, Mehmet R},
-  journal={Computers in Biology and Medicine},
-  volume={200},
-  pages={111377},
-  year={2026},
-  publisher={Elsevier}
-}
-
----
 
 ## Environment
 
@@ -86,3 +71,21 @@ This implementation was tested and verified on the following configuration:
 Install dependencies using:
 ```bash
 pip install -r requirements.txt
+```
+---
+## 📌 Citation
+
+If you use this repository, models, or any part of the proposed framework in your research, **please cite the following paper**:
+
+```bibtex
+@article{roha2026unraveling,
+  title={Unraveling blood pressure estimation with a deep learning approach using multiple embeddings},
+  author={Roha, Vishal Singh and Yuce, Mehmet R},
+  journal={Computers in Biology and Medicine},
+  volume={200},
+  pages={111377},
+  year={2026},
+  publisher={Elsevier}
+}
+```
+
