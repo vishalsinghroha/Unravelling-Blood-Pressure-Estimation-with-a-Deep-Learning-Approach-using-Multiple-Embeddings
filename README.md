@@ -1,4 +1,8 @@
-# Blood Pressure Estimation with Deep Learning and Multiple Embeddings
+# Unraveling blood pressure estimation with a deep learning approach using multiple embeddings
+
+📄 **Official implementation of the method published in _Computers in Biology and Medicine (2026)_.**  
+🔗 https://www.sciencedirect.com/science/article/pii/S0010482525017317
+
 
 This repository provides an implementation of deep learning frameworks for **cuffless blood pressure (BP) estimation** using **pulse arrival time (PAT)** features and **multiple embedding strategies**. The implementation includes Euclidean and Manhattan distance-based representations and attention-driven convolutional models.
 
@@ -49,6 +53,23 @@ The raw **ECG**, **PPG**, and **ABP** signals were originally collected from **P
 - **Bootstrap-based statistical evaluation (95% CI)** for robust analysis  
 - **Bland-Altman plots** and **cumulative error percentage** evaluation for clinical interpretability  
 - **Edge-efficient design** — AttentiveConvRegNet weights remain under **2 MB** for EUC/MAN, suitable for mobile or wearable devices
+
+---
+
+## 📌 Citation
+
+If you use this repository, models, or any part of the proposed framework in your research, **please cite the following paper**:
+
+```bibtex
+@article{roha2026unraveling,
+  title={Unraveling blood pressure estimation with a deep learning approach using multiple embeddings},
+  author={Roha, Vishal Singh and Yuce, Mehmet R},
+  journal={Computers in Biology and Medicine},
+  volume={200},
+  pages={111377},
+  year={2026},
+  publisher={Elsevier}
+}
 
 ---
 
